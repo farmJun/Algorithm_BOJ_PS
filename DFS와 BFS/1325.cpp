@@ -6,7 +6,7 @@ using namespace std;
 vector<int> graph[10001];
 bool visited[10001];
 
-
+//소스트리 테스트
 int dfs(int x) {
     int cnt = 0;
     visited[x] = true;
