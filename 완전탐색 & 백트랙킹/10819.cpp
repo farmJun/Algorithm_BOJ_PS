@@ -7,7 +7,7 @@ using namespace std;
 int n;
 deque<int> temp;
 deque<int> diff;
-
+//소스트리 테스트
 void diffMax() {
 
     if (diff.size() == n) {
